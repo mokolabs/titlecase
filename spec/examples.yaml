@@ -60,6 +60,12 @@ should_pass:
     example: "i end in a period."
     expect: "I End in a Period."
   -
+    example: "iPhone and iPad on iOS."
+    expect: "iPhone and iPad on iOS."
+  -
+    example: "iPhones and iPads on iOS."
+    expect: "iPhones and iPads on iOS."
+  -
     example: "this is a test.com!?"
     expect: "This Is a test.com!?"
   -
